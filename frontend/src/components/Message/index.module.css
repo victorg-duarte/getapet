@@ -1,0 +1,14 @@
+.message {
+  position: fixed;
+  padding: 0 1em;
+  right: 20px;
+  bottom: 20px;
+  width: 450px;
+  z-index: 10;
+}
+
+@media (max-width: 600px) {
+  .message {
+    width: 100%;
+  }
+}
